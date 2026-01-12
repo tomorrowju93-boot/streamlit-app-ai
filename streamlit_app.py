@@ -12,8 +12,8 @@ st.image("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExI
 st.image("https://via.placeholder.com/300", caption="예시 이미지")
 
 # 영상 출력
-st.video("https://www.youtube.com/watch?v=4nU-Fp96p8E")
-st.video("https://www.youtube.com/watch?v=B1J6Ou4q8vE")
+#st.video("https://www.youtube.com/watch?v=4nU-Fp96p8E")
+#st.video("https://www.youtube.com/watch?v=B1J6Ou4q8vE")
 
 # 오디오 출력
 st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
@@ -21,7 +21,7 @@ st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
 
 # 지도 출력
 import pandas as pd
-df = pd.DataFrame({"lat": [37.5], "lon": [127.0]})
+df = pd.DataFrame({"lat": [37.5378925], "lon": [127.0627946]})
 st.map(df, zoom=12)
 
 # 데이터프레임 테이블 출력
